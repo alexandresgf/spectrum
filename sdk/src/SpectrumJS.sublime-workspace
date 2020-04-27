@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Game",
+				"Gamepad"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"for",
+				"form-group"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"texc",
+				"text-center"
+			],
+			[
+				"fom",
+				"form-control"
+			],
+			[
+				"formco",
+				"form-control-static"
+			],
+			[
+				"col",
+				"col-sm-"
+			],
+			[
+				"label",
+				"label"
+			],
+			[
+				"table",
+				"table-bordered"
+			],
+			[
+				"tex",
+				"text-danger"
+			],
+			[
+				"btn-g",
+				"btn-group-xs"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"contro",
+				"control-label"
+			],
+			[
+				"btn-grou",
+				"btn-group-justified"
+			],
+			[
+				"col-xs",
+				"col-xs-1"
+			],
+			[
+				"con",
+				"control-label"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"form-",
+				"form-horizontal"
+			],
+			[
+				"pul",
+				"pull-right"
+			],
+			[
+				"page",
+				"page-header"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"nav",
+				"navbar-fixed-bottom"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"dropd",
+				"dropdown-toggle"
+			],
+			[
+				"navb",
+				"navbar-left"
+			],
+			[
+				"navba",
+				"navbar-right"
+			],
+			[
+				"btn-d",
+				"btn-default"
+			],
+			[
+				"navbar-",
+				"navbar-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"navbar-f",
+				"navbar-fixed-top"
+			],
+			[
+				"opt",
+				"opts"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"pr",
+				"process"
+			],
+			[
+				"_r",
+				"_rootName"
+			],
+			[
+				"_",
+				"_rootName"
+			],
+			[
+				"fol",
+				"folderTree"
+			],
+			[
+				"folder",
+				"folderName"
+			],
+			[
+				"app",
+				"appName"
+			],
+			[
+				"cr",
+				"createFolders"
+			],
+			[
+				"crea",
+				"createFolder"
+			],
+			[
+				"roo",
+				"rootBasePath"
+			],
+			[
+				"root",
+				"rootPath"
+			],
+			[
+				"genr",
+				"genreName"
+			],
+			[
+				"succe",
+				"successfully"
+			],
+			[
+				"e",
+				"Express"
+			],
+			[
+				"S",
+				"STRING"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"run",
+			"ll",
+			"list",
+			"ll",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/todi/Projetos/Spectrum/src/lib/src/input/Gamepad.js",
+		"/home/todi/Projetos/Spectrum/src/lib/src/Core.js",
+		"/home/todi/Projetos/Spectrum/src/lib/src/spectrum.js",
+		"/home/todi/Projetos/Spectrum/src/lib/spectrum.js",
+		"/home/todi/Projetos/Spectrum/src/lib/spectrumlib.js",
+		"/media/boot/config.txt",
+		"/var/www/thecrushers/js/game.js",
+		"/home/todi/Projetos/Spectrum/src/setdevenv.sh",
+		"/media/raspberrypi/bcm2835-bootfiles-20140221.stamp",
+		"/media/raspberrypi/image-version-info",
+		"/media/raspberrypi/cmdline.txt",
+		"/media/raspberrypi/config.txt",
+		"/usr/src/poky/meta-openembedded/meta-networking/recipes-support/ipsec-tools/ipsec-tools_0.8.1.bb",
+		"/usr/src/poky/rpi-build/conf/bblayers.conf",
+		"/usr/src/poky/rpi-build/conf/local.conf",
+		"/home/todi/src/poky/rpi-build/conf/bblayers.conf",
+		"/home/todi/src/poky/rpi-build/conf/local.conf",
+		"/home/todi/Projetos/Spectrum/src/poky/rpi-build/conf/bblayers.conf",
+		"/home/todi/Projetos/Spectrum/src/poky/rpi-build/conf/local.conf",
+		"/home/todi/Projetos/Spectrum/src/poky/spectrumos-build/conf/local.conf",
+		"/home/todi/Projetos/Spectrum/src/poky/spectrumos-build/conf/bblayers.conf",
+		"/home/todi/Projetos/Spectrum/src/poky/spectrumos-build/conf/templateconf.cfg",
+		"/home/todi/Projetos/Spectrum/B2G/content/shell.xul",
+		"/home/todi/Projetos/Spectrum/B2G/content/screen.js",
+		"/home/todi/Projetos/Spectrum/B2G/content/shell.js",
+		"/home/todi/Projetos/Spectrum/B2G/content/forms.js",
+		"/home/todi/Projetos/Spectrum/B2G/content/runapp.js",
+		"/home/todi/Projetos/Spectrum/B2G/content/settings.js",
+		"/home/todi/Downloads/shell.xul",
+		"/home/todi/Projetos/Web/playgrinds/views/manager/game.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/manager/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/layout.jade",
+		"/home/todi/Projetos/Web/playgrinds/Procfile",
+		"/home/todi/Projetos/Web/playgrinds/playgrinds",
+		"/home/todi/Projetos/Web/playgrinds/app.procfile",
+		"/home/todi/Projetos/Web/playgrinds/views/member/profile.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/game/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/checkout/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/checkout.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/header.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/member/profile/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/home/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/member/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/done.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/add.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/cart/remove.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/about/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/contact/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/member/signup.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/members/signup.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/members/index.jade",
+		"/home/todi/Projetos/Web/playgrinds/views/footer.jade",
+		"/home/todi/Projetos/Web/playgrinds/www/lib/tooltip.js",
+		"/home/todi/Projetos/Web/playgrinds/www/lib/popover.js",
+		"/home/todi/Projetos/Web/playgrinds/www/css/styles.css",
+		"/home/todi/Projetos/Web/playgrinds/views/index.html",
+		"/home/todi/Projetos/Web/playgrinds/package.json",
+		"/home/todi/Projetos/Spectrum/spm/src/bin/spm",
+		"/home/todi/Projetos/Spectrum/Server/models.js",
+		"/home/todi/Projetos/Spectrum/Server/server.js",
+		"/home/todi/Projetos/Spectrum/AppSetup/README.md",
+		"/home/todi/Projetos/Spectrum/AppSetup/app/lib/spectrum.js",
+		"/home/todi/Projetos/Spectrum/spm/src/file/package.json",
+		"/home/todi/Projetos/Spectrum/spm/src/file/index.html",
+		"/home/todi/Projetos/Spectrum/spm/spm.js",
+		"/home/todi/Projetos/Spectrum/Server/Models.js",
+		"/home/todi/Projetos/Spectrum/Server/User.js",
+		"/home/todi/Projetos/Spectrum/ST_UI/index.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Comprar",
+			"\n#",
+			"if",
+			"printhelp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Visualizar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 252.0
+	},
+	"project": "SpectrumJS.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

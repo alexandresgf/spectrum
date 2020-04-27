@@ -1,0 +1,82 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var fs = require('fs');
+var path = require('path');
+var crypto = require('crypto');
+var parser = require('nomnom');
+var prompt = require('prompt');
+var SPM = require(path.join(path.dirname(fs.realpathSync(__filename)), '../lib/spm.js'));
+
+var spm = new SPM();
+var md5 = crypto.createHash('md5');
+
+parser.script('spm');
+
+parser.command('create')
+	.callback(function(opts) {
+		if (opts.app) {
+			spm.create(opts.app);
+			return;
+		}
+		
+		spm.create();
+	})
+	.help('create the application with the specified name');
+
+parser.command('publish')
+	.callback(function(opts) {
+		if (typeof opts.path !== 'undefined' && typeof opts.login !== 'undefined') {
+			if (!fs.existsSync(opts.path)) {
+				console.error('[ERROR] This path doesn\'t exists!');
+				return;
+			}
+
+			prompt.addProperties(opts, [{
+				name: 'password',
+				required: true,
+				hidden: true
+			}], function(err) {
+				if (err)
+					throw err;
+
+				opts.password = md5.update(opts.password).digest('hex');
+				spm.publish(opts.path, opts.login, opts.password);
+			});
+		} else {
+			console.error('[ERROR] Use -p and -l options to run this command!');
+		}
+	})
+	.help('send the application to the server for review and publication');
+
+parser.command('update')
+	.callback(function(opts) {
+		console.log('Command: update Spectrum lib (beta=%s)', opts.beta);
+	})
+	.help('update the Spectrum library to the last release');
+
+
+parser.options({
+	app: {
+		abbr: 'a',
+		metavar: 'NAME',
+		help: 'specify the application name'
+	},
+	login: {
+		abbr: 'l',
+		metavar: 'USERNAME',
+		help: 'specify the username'
+	},
+	path: {
+		abbr: 'p',
+		metavar: 'PATH',
+		help: 'specify the application path'
+	},
+	beta: {
+		flag: true,
+		help: 'indicates to update for a beta version'
+	}
+});
+
+parser.parse();

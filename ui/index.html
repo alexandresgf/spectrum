@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br" ng-app="spectrumUI">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Spectrum</title>
+        <!-- Style Sheets includes -->
+        <link rel="stylesheet" href="css/spectrumui.css">
+        <!-- Lib includes -->
+        <script type="text/javascript" src="lib/angular.js"></script>
+        <script type="text/javascript" src="lib/angular-route.js"></script>
+        <script type="text/javascript" src="lib/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="lib/bootstrap.js"></script>
+        <script type="text/javascript" src="lib/SpectrumJS-0.1.1a.min.js"></script>
+        <!-- Script includes -->
+        <script type="text/javascript" src="js/SpectrumUI.js"></script>
+        <script type="text/javascript" src="js/HomeController.js"></script>
+    </head>
+    <body>
+        <div class="container" ng-view></div>
+        <nav class="navbar-static-bottom">
+            <div class="container">
+                <div class="navbar-left">
+                    <p class="navbar-text"><h4><img src="img/btn_a.png"> Confirmar <img src="img/btn_b.png"> Cancelar/Voltar</h4></p>
+                </div>
+            </div>
+        </nav>
+    </body>
+</html>

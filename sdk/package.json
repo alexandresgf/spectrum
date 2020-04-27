@@ -1,0 +1,32 @@
+{
+	"name": "SpectrumJS",
+	"version": "0.1.1a",
+	"description": "Spectrum JS is the official system development package to interact with the low level layer of the Spectrum Portable Video Game Console",
+	"keywords": [
+		"spectrum",
+		"video game",
+		"portable",
+		"console",
+		"grindsoft",
+		"spectrumjs",
+		"html5",
+		"javascript",
+		"games",
+		"web",
+		"development",
+		"gamedev"
+	],
+	"homepage": "http://www.grindsoft.com.br",
+	"author": {
+		"name": "Alexandre Ferreira",
+		"email": "contato@grindsoft.com.br",
+		"url": "http://www.grindsoft.com.br"
+	},
+	"files": ["src/*.js"],
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-concat": "~0.4.0",
+		"grunt-contrib-jshint": "~0.10.0",
+    	"grunt-contrib-uglify": "~0.4.0"
+	}
+}
